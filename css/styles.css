@@ -1,0 +1,243 @@
+body{
+  font-family: 'montserrat', sans-serif;
+
+}
+#title{
+  background-color: #ff4c68;
+  padding-bottom: 50px;
+  /*color:#fff;             mam told this, but ive changed in h1 section.*/
+  }
+/*h1{
+  font-family: "Montserrat";
+  font-size: 3rem;
+  line-height: 1.5;
+}*/
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 900; /* black */
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding:3% 15% 7%;
+}
+
+
+/* Navigation Bar */
+
+.navbar{
+  padding: 0 0 4.5rem;
+
+}
+
+
+.navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;  
+}
+
+.nav-item{
+  padding: 0px 18px;
+}
+
+.nav-link{
+  font-family:"Montserrat";
+  /*font-weight: lighter;*/
+  font-size: 1.2rem;
+}
+/* Download Buttons */
+.download-button{
+  margin:5% 3% 5% 0%;
+}
+/* Title Image */
+.title-image{
+  width:60%;
+  transform: rotate(20deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+
+/* Features-Section */
+
+#features{
+  padding:80px 18px; /*angela used padding as 7% and 15% respectively*/
+  width:100%;
+  text-align: center;
+  background-color:#fff;
+  position: relative;
+  z-index: 1;
+  }
+/* .featuresp{
+  
+
+} */
+
+
+.i1{
+  color:#ef8172;
+  font-size: 40px;
+  margin-top: 60px;
+}
+
+.i1:hover{
+  color:#ff4c68;
+}
+
+h3{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.features-p{
+  color:#8f8f8f;
+  width:50%;
+  margin-left:120px;
+  text-align: center;
+}
+
+/* Testimonials section*/
+#testimonials{
+  background-color:#ef8172;
+  text-align: center;
+  padding: 80px 18px;
+  color: #fff;
+  margin-top: 60px;
+}
+
+.testimonial-text{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 70%;/*EE LINE INKA KINDA margin-left LINE NEN OWN GA RAASINA*/
+    margin-left: 220px;  
+}
+
+
+.testimonial-image{
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+/*NOTE: If you want to change the arrow button positions i.e, (left and right) to be placed more in the corner 
+then you can change the padding left,right to some 30px,30px respectively of the carousel-item.*/
+
+
+/* Press section */
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width:15%;
+  padding:20px 20px 50px;
+}
+
+
+/*Pricing Section*/
+
+ h2{
+  font-family: "Montserrat";
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+  width: 70%; 
+  text-align: center;
+  } 
+
+#head2{
+  margin-left: 50px;
+}
+
+#test{
+  margin-left: 220px;
+}
+
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+
+@media( max-width:1028px ){
+   
+  #title{
+    text-align: center;
+  }
+  
+  .title-image{
+    position: static;
+    transform: rotate(0); 
+  }
+
+  
+}
+/*EE KINDA MEDiA QUERY NEN OWN GA RAASINADI*/
+@media(min-width:700px) and (max-width:1100px){
+  
+  .features-p{
+    margin-left: 80px;
+  }
+  .testimonial-text{
+    margin-left: 80px;
+  }
+}
+
+
+
+/*CTA section*/
+#cta{
+  background-color: #ff4c68;
+  height:300px;
+  text-align: center;
+}
+
+.ctahead{
+  color: #fff;
+  font-family: "Montserrat";
+  font-weight: bold;
+  padding-top: 35px;
+  width:40%;
+  line-height: 1.5;
+  font-size: 2rem;
+  margin-left: 450px;
+ 
+}
+
+.download1-button{
+  margin:2% 2% 0 0;
+}
+
+/* Footer Section */
+footer{
+  height:200px;
+  text-align: center;
+  }
+
+.p-footer{
+  padding-top: 20px;
+  color:#8f8f8f;
+  margin-right: 30px;
+}
+
+.footer-icon{
+  margin:2% 2% 0 0;
+  padding-top: 30px;
+ padding-bottom: 5px;
+}
+
+
+
+/* IMPORTANT NOTE : NENU ASAL EE CODE LO SELECTORS EM APPLY CHEYALEDU. BECAUSE IT IS SHOWING ERRORS IF I DO SO. */
